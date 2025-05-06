@@ -1,18 +1,24 @@
-## Getting Started
+# 💻 Desafio: Controle de Fluxo - DIO - Trilha Java Básico
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Repositório com a solução do desafio proposto no módulo **"Controle de Fluxo"** da formação [Java Básico](https://web.dio.me/track/trilha-java-basico) da Digital Innovation One (DIO).
 
-## Folder Structure
+## 🔗 Link do Desafio
 
-The workspace contains two folders by default, where:
+📄 [Enunciado oficial no GitHub da DIO](https://github.com/digitalinnovationone/trilha-java-basico/tree/main/desafios/controle-fluxo)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### 📜 Descrição do Desafio
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+O objetivo é criar um programa Java que receba **dois números inteiros via terminal**, e:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- Realize uma contagem incremental entre esses dois números.
+- Lance uma exceção customizada (`ParametrosInvalidosException`) se o **primeiro número for maior que o segundo**.
 
-## Dependency Management
+#### 🧠 Requisitos:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. Solicitar ao usuário que digite dois valores inteiros.
+2. Realizar um `for` com base na diferença entre os dois números.
+3. Imprimir no console:
+   Imprimindo o número 1
+   Imprimindo o número 2
+   ...
+4. Se o primeiro número for maior que o segundo, lançar a exceção com a mensagem: `O segundo parâmetro deve ser maior que o primeiro`
